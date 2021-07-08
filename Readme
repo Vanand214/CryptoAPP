@@ -7,3 +7,29 @@ and similarly,
 
 Server B :- Angular 12 server that worked on port 4200/
 
+
+......................................................................
+
+steps to run server A
+
+- install node ,npm 
+- fetch the API by using nodefor .
+
+
+steps to run server B
+-install angular CLI( command-line interface )
+-make sure about node and npm
+- Angular 2+ works with components and modules for better performance.
+
+
+Functionalities Provided By Server A
+ - Fetching prices from wazirx
+ - keeping track of users
+ - keeping track of orders / user accounts ...
+
+Functionalities Provided By Server B
+ - Single Page App (http://localhost:4200/)
+ - Login / Register page
+
+
+NOTE:- wazirx API dont support ANGULAR 2+ due to CORS error use NODEjs for better exeperience.
