@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { AppService } from './app.service';
+import { User } from './models/user';
+import { AuthenticationService } from './services/authentication.service';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +10,17 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cryptoapp';
+  currentUser: User;
 
-  cryptoData : any;
+  constructor(
+      private router: Router,
+      private authenticationService: AuthenticationService
+  ) {
+      this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
+  }
 
-  constructor(private app:AppService)
-  {
-    this.app.getData().subscribe(data=>{
-      this.cryptoData = data;
-    })
+  logout() {
+      this.authenticationService.logout();
+      this.router.navigate(['/login']);
   }
 }

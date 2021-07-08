@@ -4,14 +4,12 @@ import { Observable, of, throwError } from 'rxjs';
 import { delay, mergeMap, materialize, dematerialize } from 'rxjs/operators';
 
 // array in local storage for registered users
+let users = JSON.parse(localStorage.getItem('users')) || [];
 
-var  users : any[]  = JSON.parse(localStorage.getItem('users') || '{}') ||  [];
+let data = JSON.parse(localStorage.getItem('myProfile')) || [];
 
 @Injectable()
 export class FakeBackendInterceptor implements HttpInterceptor {
-
-  
-
     intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
         const { url, method, headers, body } = request;
 
@@ -23,6 +21,7 @@ export class FakeBackendInterceptor implements HttpInterceptor {
             .pipe(dematerialize());
 
         function handleRoute() {
+            debugger;
             switch (true) {
                 case url.endsWith('/users/authenticate') && method === 'POST':
                     return authenticate();
@@ -30,6 +29,10 @@ export class FakeBackendInterceptor implements HttpInterceptor {
                     return register();
                 case url.endsWith('/users') && method === 'GET':
                     return getUsers();
+                case url.endsWith('/myprofile/add') && method === 'POST':
+                        return addToPortFolia();
+                 case url.endsWith('/getallmyProfile') && method === 'GET':
+                            return getMyProfile();
                 case url.match(/\/users\/\d+$/) && method === 'DELETE':
                     return deleteUser();
                 default:
@@ -64,7 +67,15 @@ export class FakeBackendInterceptor implements HttpInterceptor {
             users.push(user);
             localStorage.setItem('users', JSON.stringify(users));
 
-            return ok(user);
+            return ok();
+        }
+
+        function addToPortFolia()
+        { 
+            const currdata = body               
+            data.push(currdata);
+            localStorage.setItem('myProfile', JSON.stringify(data));
+            return ok();
         }
 
         function getUsers() {
@@ -72,21 +83,26 @@ export class FakeBackendInterceptor implements HttpInterceptor {
             return ok(users);
         }
 
+        function getMyProfile() {
+            if (!isLoggedIn()) return unauthorized();
+            return ok(data);
+        }
+
         function deleteUser() {
             if (!isLoggedIn()) return unauthorized();
 
             users = users.filter(x => x.id !== idFromUrl());
             localStorage.setItem('users', JSON.stringify(users));
-            return ok(users);
+            return ok();
         }
 
         // helper functions
 
-        function ok(body: any) {
+        function ok(body?) {
             return of(new HttpResponse({ status: 200, body }))
         }
 
-        function error(message : any) {
+        function error(message) {
             return throwError({ error: { message } });
         }
 

@@ -4,18 +4,16 @@ import { User } from '../models/user';
 
 
 @Injectable({ providedIn: 'root' })
-export class UserService {
+export class  MyProfileService {
     constructor(private http: HttpClient) { }
 
     getAll() {
-        return this.http.get<User[]>(`/users`);
+        return this.http.get<any[]>(`/getallmyProfile`);
     }
 
-    register(user: User) {
-        return this.http.post(`/users/register`, user);
+    addData(data: any) {
+        return this.http.post(`/myprofile/add`, data);
     }
 
-    delete(id: number) {
-        return this.http.delete(`/users/${id}`);
-    }
+   
 }
