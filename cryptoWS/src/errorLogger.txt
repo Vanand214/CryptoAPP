@@ -1,0 +1,2170 @@
+Mon Mar 22 2021 15:16:08 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:1123:12)
+    at ServerResponse.json (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:260:14)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:8:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:18:01 GMT+0530 (India Standard Time) - ReferenceError: CircularJSON is not defined
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:8:20
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:18:21 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:8:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:19:14 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:8:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:20:07 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:22:50 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:1123:12)
+    at ServerResponse.json (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:260:14)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:23:07 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:24
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:24:04 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:25:14 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:1123:12)
+    at ServerResponse.json (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:260:14)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:14:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:26:59 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:1123:12)
+    at ServerResponse.json (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:260:14)
+    at ServerResponse.send (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:158:21)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:27:14 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:1123:12)
+    at ServerResponse.json (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:260:14)
+    at ServerResponse.send (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:158:21)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:28:36 GMT+0530 (India Standard Time) - TypeError: response.type is not a function
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:8:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:28:46 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:1123:12)
+    at ServerResponse.json (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:260:14)
+    at ServerResponse.send (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:158:21)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:31:25 GMT+0530 (India Standard Time) - ReferenceError: Flatted is not defined
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:10:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:32:18 GMT+0530 (India Standard Time) - ReferenceError: Flatted is not defined
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:10:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:33:57 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token o in JSON at position 1
+    at parse (<anonymous>)
+    at parse (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\flatted\cjs\index.js:55:17)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:10:18
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 15:35:06 GMT+0530 (India Standard Time) - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'socket' -> object with constructor 'Object'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:1123:12)
+    at ServerResponse.json (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\express\lib\response.js:260:14)
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:10:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Mon Mar 22 2021 16:26:41 GMT+0530 (India Standard Time) - Error: connect ETIMEDOUT 104.20.81.106:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) 
+Tue Mar 23 2021 14:46:53 GMT+0530 (India Standard Time) - ReferenceError: len is not defined
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Tue Mar 23 2021 14:49:18 GMT+0530 (India Standard Time) - ReferenceError: _ is not defined
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Tue Mar 23 2021 14:49:30 GMT+0530 (India Standard Time) - ReferenceError: _ is not defined
+    at D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:9:22
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+Thu Mar 25 2021 12:32:03 GMT+0530 (India Standard Time) - Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20) 
+Mon Mar 29 2021 11:00:35 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Mar 29 2021 11:49:06 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Mar 29 2021 11:49:16 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Mar 29 2021 11:49:19 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Mar 29 2021 11:49:25 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Mar 29 2021 11:49:35 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Mar 29 2021 11:53:07 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Mar 29 2021 11:53:17 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Mar 29 2021 11:53:28 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Tue Mar 30 2021 15:51:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Tue Mar 30 2021 15:57:54 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Wed Mar 31 2021 11:47:44 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Wed Mar 31 2021 12:36:11 GMT+0530 (India Standard Time) - Error: Request failed with status code 502
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Wed Mar 31 2021 12:38:42 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Fri Apr 02 2021 12:13:15 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Fri Apr 02 2021 12:13:15 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Fri Apr 02 2021 14:46:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Fri Apr 02 2021 15:03:24 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Fri Apr 02 2021 15:13:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Fri Apr 02 2021 15:19:52 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Fri Apr 02 2021 15:19:54 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Fri Apr 02 2021 15:19:54 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Fri Apr 02 2021 16:28:16 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Fri Apr 02 2021 16:28:16 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:56:48 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:56:48 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:56:58 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:56:58 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:57:09 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:57:09 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:57:19 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:57:19 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:58:38 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 14:58:38 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:11:20 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Mon Apr 05 2021 15:14:56 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:19:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:19:42 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:19:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:20:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:58 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:21:58 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:08 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:08 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:19 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:19 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:26 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:26 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:37 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:37 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:47 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:47 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:57 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:22:57 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:07 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:07 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:17 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:17 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:27 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:27 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:37 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:37 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:47 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:23:47 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:24:50 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:25:35 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:27:11 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:34:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:34:36 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:18 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:18 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:28 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:28 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:38 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:38 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:54 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:37:54 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:04 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:04 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:14 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:14 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:25 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:25 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:35 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:35 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:45 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:45 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:38:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:12 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:12 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:22 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:39:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:40:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:40:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:40:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:40:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:41:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:09 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:10 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:19 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:19 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:29 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:29 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:40 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:40 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:42:43 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:44:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:45:46 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:52:16 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:53:46 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:04 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:04 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:15 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:15 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:25 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:25 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:39 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:39 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:54 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:56:54 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:04 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:04 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:14 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:14 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:18 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:18 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:29 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:29 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:39 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:39 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:49 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:49 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:59 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:57:59 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:58:26 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:58:26 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:58:45 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:58:45 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:58:55 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 15:59:55 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:21 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:21 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:42 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:42 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:59 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:00:59 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:10 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:10 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:20 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:20 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:26 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:26 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:44 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:44 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:01:53 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:03 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:23 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:02:33 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:03:41 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:03:49 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:03:49 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:03:59 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:03:59 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:14 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:24 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:24 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:41 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:47 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:47 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:58 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:04:58 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:13 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:21 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:21 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:42 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:42 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:05:52 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:02 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:12 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:12 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:22 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:22 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:32 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:41 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Mon Apr 05 2021 16:06:41 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Tue Apr 06 2021 14:34:40 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Tue Apr 06 2021 14:34:50 GMT+0530 (India Standard Time) - Error: getaddrinfo ENOTFOUND api.wazirx.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) 
+Tue Apr 06 2021 19:54:34 GMT+0530 (India Standard Time) - ValidationError: User validation failed: password: Path `password` is required., email: Path `email` is required., dob: Path `dob` is required., userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Tue Apr 06 2021 19:54:52 GMT+0530 (India Standard Time) - ValidationError: User validation failed: password: Min 8 chars, 1 special, 1 number
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Tue Apr 06 2021 19:55:01 GMT+0530 (India Standard Time) - ValidationError: User validation failed: password: Min 8 chars, 1 special, 1 number
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Tue Apr 06 2021 19:55:08 GMT+0530 (India Standard Time) - ValidationError: User validation failed: password: Min 8 chars, 1 special, 1 number
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Tue Apr 06 2021 19:55:15 GMT+0530 (India Standard Time) - ValidationError: User validation failed: password: Min 8 chars, 1 special, 1 number
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Tue Apr 06 2021 19:55:54 GMT+0530 (India Standard Time) - ValidationError: User validation failed: password: Min 8 chars, 1 special, 1 number
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Tue Apr 06 2021 20:07:22 GMT+0530 (India Standard Time) - TypeError: this.generateID is not a function
+    at Object.user.addUser (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:24:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:12:16)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:39:28 
+Tue Apr 06 2021 20:12:45 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Tue Apr 06 2021 20:12:55 GMT+0530 (India Standard Time) - ValidationError: User validation failed: password: 1 number
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Tue Apr 06 2021 20:12:59 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Tue Apr 06 2021 20:13:48 GMT+0530 (India Standard Time) - ValidationError: User validation failed: dob: Cast to date failed for value "18/09/2003" at path "dob"
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at model.$set (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:1319:12)
+    at model.$set (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:1023:16)
+    at model.Document (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\model.js:4718:15)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\model.js:3065:22
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\model.js:3101:7
+    at Array.forEach (<anonymous>)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\model.js:3100:15
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\index.js:1152:10)
+    at Function.create (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\model.js:3035:23)
+    at Object.user.addUser (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:28:31) 
+Tue Apr 06 2021 20:14:26 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:36:06 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:36:23 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:37:04 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:45:03 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:48:36 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:48:40 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:48:54 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 11:49:51 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 12:41:43 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Wed Apr 07 2021 12:41:48 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:50:21 
+Fri Apr 09 2021 20:41:45 GMT+0530 (India Standard Time) - CastError: Cast to ObjectId failed for value "0" at path "_id" for model "User"
+    at model.Query.exec (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\mongoose\lib\query.js:4502:15) 
+Fri Apr 09 2021 20:45:17 GMT+0530 (India Standard Time) - ReferenceError: $watchList is not defined
+    at Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:41:80)
+    at async Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:18:20)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:61:25 
+Fri Apr 09 2021 20:46:11 GMT+0530 (India Standard Time) - ReferenceError: $watchList is not defined
+    at Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:41:74)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:18:20)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:61:25 
+Fri Apr 09 2021 20:46:31 GMT+0530 (India Standard Time) - ReferenceError: $userId is not defined
+    at Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:41:101)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:18:20)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:61:25 
+Fri Apr 09 2021 20:46:52 GMT+0530 (India Standard Time) - MongooseError: Mongoose 5.x disallows passing a spread of operators to `Model.aggregate()`. Instead of `Model.aggregate({ $match }, { $skip })`, do `Model.aggregate([{ $match }, { $skip }])`
+    at Function.aggregate (D:\cryptoTicker\crypto-ticker\cryptoWS\node_modules\mongoose\lib\model.js:3967:11)
+    at Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:41:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.getWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:18:20)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:61:25 
+Fri Apr 09 2021 20:55:47 GMT+0530 (India Standard Time) - ReferenceError: cryptoCode is not defined
+    at Object.user.delFromWatchlist (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:68:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.deleteWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:28:18)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:86:32 
+Fri Apr 09 2021 20:56:03 GMT+0530 (India Standard Time) - Error: Watchlist could not be updated
+    at Object.user.delFromWatchlist (D:\cryptoTicker\crypto-ticker\cryptoWS\src\model\users.js:71:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.deleteWatchList (D:\cryptoTicker\crypto-ticker\cryptoWS\src\service\userService.js:28:18)
+    at async D:\cryptoTicker\crypto-ticker\cryptoWS\src\routes\routing.js:86:32 
+Sat Apr 10 2021 15:15:14 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:16:59 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:25:38 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:25:46 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:26:27 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:31:36 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:35:05 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:38:08 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:39:01 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 15:40:37 GMT+0530 (India Standard Time) - ValidationError: User validation failed: userName: Path `userName` is required.
+    at model.Document.invalidate (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2703:32)
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\document.js:2523:17
+    at D:\cryptoTicker\crypto-ticker\cryptows\node_modules\mongoose\lib\schematype.js:1254:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) 
+Sat Apr 10 2021 20:02:46 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:02:49 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:03:57 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:04:44 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:06:07 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:55:06 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:56:18 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:56:57 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:57:25 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:57:32 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sat Apr 10 2021 20:57:41 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sun Apr 11 2021 15:55:04 GMT+0530 (India Standard Time) - Error: You are not registered. Please register to continue
+    at Object.user.checkLogin (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:9:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.loginUser (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:7:19)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:50:21 
+Sun Apr 11 2021 16:05:37 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Sun Apr 11 2021 16:05:37 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Sat Apr 17 2021 20:36:20 GMT+0530 (India Standard Time) - Error: Watchlist could not be updated
+    at Object.user.delFromWatchlist (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:71:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.deleteWatchList (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:28:18)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:86:32 
+Sat Apr 17 2021 20:36:49 GMT+0530 (India Standard Time) - Error: Watchlist could not be updated
+    at Object.user.delFromWatchlist (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:71:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.deleteWatchList (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:28:18)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:86:32 
+Sat Apr 17 2021 20:38:14 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Sat Apr 17 2021 20:38:14 GMT+0530 (India Standard Time) - Error: Request failed with status code 400
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+Sat Apr 17 2021 20:41:41 GMT+0530 (India Standard Time) - Error: Watchlist could not be updated
+    at Object.user.delFromWatchlist (D:\cryptoTicker\crypto-ticker\cryptows\src\model\users.js:71:18)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.deleteWatchList (D:\cryptoTicker\crypto-ticker\cryptows\src\service\userService.js:28:18)
+    at async D:\cryptoTicker\crypto-ticker\cryptows\src\routes\routing.js:86:32 
+Sat Apr 17 2021 20:42:39 GMT+0530 (India Standard Time) - Error: Request failed with status code 504
+    at createError (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (D:\cryptoTicker\crypto-ticker\cryptows\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 

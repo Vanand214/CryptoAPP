@@ -1,0 +1,48 @@
+
+GET http://localhost:3000/getTickers/
+
+
+###
+
+GET http://localhost:3000/ordersHistory/btcusdt
+
+###
+
+GET http://localhost:3000/marketHistory/btcusdt
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "userName":"nuj",
+    "dob":"04/12/2003",
+    "email":"nuj@john.com",
+    "password":"nuj28",
+    "watchList":["BTC","DOGE","ETH","WRX"]
+}
+
+
+###
+
+PUT http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "userName":"asmin", 
+  "password":"Asmin06" 
+}
+
+
+###
+
+GET http://localhost:3000/watchList/1112
+
+###
+
+PUT http://localhost:3000/addToWatch/1112/TUSD
+
+###
+
+DELETE http://localhost:3000/deleteFromWatch/1112/TUSD
